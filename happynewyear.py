@@ -5,7 +5,7 @@ def draw_flower(x, y):
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(x, y)
+    t.goto(x, y) 
     t.pendown()
     t.color("red")
     for i in range(36):
